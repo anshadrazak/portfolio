@@ -1,0 +1,88 @@
+.projectsdiv {
+
+    padding-top: 50%;
+    margin: auto;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 30vh;
+  }
+  
+  .project1 {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5%;
+  }
+  
+  .p1dets {
+    width: 50%;
+    
+  }
+  
+  .p1heading {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    
+  }
+  
+  .p1tag {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+  }
+  
+  .p1btn {
+    background-color: #f40324;
+    border: none;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .p1btn:hover {
+    cursor: pointer;
+    background-color: #c9011c;
+    
+  }
+  
+  .p1img {
+    
+    width: 50%;
+  }
+  
+  .bbimg {
+    width: 100%;
+    height: fit-content;
+  }
+
+  @media (max-width: 700px){
+
+    .projectsdiv{
+      gap: 10vh;
+    }
+
+    .project1{
+      
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .p1img{
+      width: 80%;
+    }
+    .p1heading {
+      font-size: 1.5rem;
+      text-align: center;
+      width: 100%;
+    }
+    .p1dets {
+      font-size: 0.5rem;
+      text-align: center;
+    }
+  }

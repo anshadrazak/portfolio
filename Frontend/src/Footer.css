@@ -1,0 +1,17 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c9011c;
+    height: 50vh;
+}
+
+.background .textcont {
+    text-align: center;
+}
+
+.lt{
+    color: black;
+    text-decoration: underline black;
+}

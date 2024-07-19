@@ -1,0 +1,38 @@
+.maintext {
+    height: 60%;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .maintext h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    animation-name: slidein;
+    animation-duration: 1s;
+    font-size: 12rem;
+  }
+
+  @keyframes slidein {
+    from {
+      transform: translateX(-300px);
+      opacity: 0;
+    }
+    to {
+  
+      opacity: 100;
+    }
+  }
+
+  @media (max-width: 700px){
+    .maintext h1 {
+      padding-top: 50%;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 100;
+      animation-name: slidein;
+      animation-duration: 1s;
+      font-size: 5rem;
+    }
+  }

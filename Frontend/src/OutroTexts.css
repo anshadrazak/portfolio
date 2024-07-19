@@ -1,0 +1,59 @@
+.textcont2 {
+    padding-top: 10%;
+    width: 100%;
+  
+  }
+  
+  .animtexts {
+    margin: auto;
+    width: 80%;
+  
+  }
+  
+  
+   .textcont2 .texts {
+    color: #c9011c;
+    animation-name: autobluranim;
+    animation-timeline: view();
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 5rem;
+  }
+  
+  @keyframes autobluranim {
+    0% {
+      opacity: 0;
+      filter: blur(5px);
+    }
+  
+    28% {
+      opacity: 0;
+      filter: blur(4px);
+    }
+  
+  
+    50% {
+      opacity: 100;
+      filter: blur(0px);
+    }
+  
+    72%{
+      opacity: 0;
+      filter: blur(4px);
+    }
+  
+    100% {
+      opacity: 0;
+      filter: blur(5px);
+    }
+  }
+
+
+  @media (max-width: 700px){
+    .textcont2 {
+      padding-top: 50%;
+    }
+    .textcont2 .texts {
+      font-size: 3rem;
+    }
+  }

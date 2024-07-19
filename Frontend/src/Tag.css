@@ -1,0 +1,83 @@
+.secgrid {
+    margin-top: 7%;
+    animation-name: fadein;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: both;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    height: 30%;
+  
+  }
+  
+.secgrids {
+
+    height: 100%;
+}
+
+.stag {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+
+}
+
+.stag .maintexts{
+    font-weight: 100;
+}
+
+.tagline {
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.socials {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+}
+
+
+
+@keyframes fadein {
+    0%{
+      opacity: 0;
+      filter: blur(5px);
+    }
+  
+    50% {
+      opacity: 10;
+      filter: blur(0px);
+  
+    }
+  
+    100% {
+      opacity: 100;
+      filter: blur(0px);
+    }
+  }
+
+
+  @media (max-width: 700px){
+    .secgrid {
+      padding-top: 5%;
+
+      grid-template-columns: 8% 1fr 1fr 8%;
+      
+    
+    }
+  }

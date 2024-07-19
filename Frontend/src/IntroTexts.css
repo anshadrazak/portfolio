@@ -1,0 +1,59 @@
+.textcont {
+
+    width: 100%;
+  
+  }
+  
+  .animtexts {
+    margin: auto;
+    width: 80%;
+  
+  }
+  
+  .texts {
+    color: white;
+    animation-name: autobluranim;
+    animation-timeline: view();
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 100;
+    font-size: 5rem;
+  }
+  
+  @keyframes autobluranim {
+
+  
+    28% {
+      opacity: 0;
+      
+    }
+
+    40% {
+      opacity: 30%;
+    }
+  
+  
+    50% {
+      opacity: 100;
+      
+    }
+
+    60% {
+      opacity: 30%;
+    }
+  
+    72%{
+      opacity: 0;
+      
+    }
+  
+
+  }
+
+  @media (max-width: 700px){
+    .textcont {
+      padding-top: 20%;
+    }
+    .texts {
+      font-size: 3rem;
+    }
+  }

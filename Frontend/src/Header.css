@@ -1,0 +1,51 @@
+header {
+    width: 100%;
+    height: 10%;
+  }
+  
+  .headergrid {
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+
+  }
+  
+  .headergrids {
+
+  }
+  
+  .asd {
+    
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+  }
+  
+  .maillink {
+    color: #c9011c;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 0;
+  }
+  
+  .maildiv {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+  }
+
+
+  @media (max-width: 1000px){
+
+    .asd {
+      font-size: 1.5rem;
+    }
+    
+    .headergrid {
+      grid-template-columns: 8% 1fr 1fr 8%;
+  
+    }
+
+  }
