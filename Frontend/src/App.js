@@ -12,6 +12,7 @@ import Footer from './Footer';
 import React, { useEffect, useRef } from 'react';
 import { TweenLite } from 'gsap';
 import './Cursor.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
 
